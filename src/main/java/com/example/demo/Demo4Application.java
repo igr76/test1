@@ -56,6 +56,7 @@ public class Demo4Application {
         System.out.println("cтрока после сериализации длина:"+stringResult.length());
         System.out.println("процент сжатия :"+comparisonString+" %");
     }
+    
     public static int[] generateArray(int volume,int size) {
         int[] arr=new  int[size];
         for (int i = 0; i < size; i++) {
